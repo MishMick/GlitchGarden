@@ -1,9 +1,10 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/MusicPlayer.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Fade.cs">
     <Files>
-      <File FileName="Assets/Scripts/LevelManager.cs" Line="13" Column="36" />
-      <File FileName="Assets/Scripts/MusicPlayer.cs" Line="23" Column="28" />
+      <File FileName="Assets/Scripts/LevelManager.cs" Line="9" Column="1" />
+      <File FileName="Assets/Scripts/MusicPlayer.cs" Line="18" Column="50" />
+      <File FileName="Assets/Scripts/Fade.cs" Line="19" Column="20" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
