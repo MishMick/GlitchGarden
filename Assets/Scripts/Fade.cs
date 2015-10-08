@@ -16,11 +16,13 @@ public class Fade : MonoBehaviour {
 	{
 	  if(Time.timeSinceLevelLoad < fadeInTime)
 	  {
-	    currentColor.a
+	    float alphaChange = Time.deltaTime / fadeInTime;
+	    currentColor.a -= alphaChange;
+	    fadePanel.color = currentColor;    
 	  }
 	  else
 	  {
-	    gameObject.SetActive = false;
+	    gameObject.SetActive(false);
 	  }
 	}
 }
