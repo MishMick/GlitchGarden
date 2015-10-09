@@ -1,8 +1,10 @@
 fileFormatVersion: 2
 guid: 3991ba177e1fb40e3861dc0e837ff9f6
+timeCreated: 1444370730
+licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: npc_deimaginator__x1_appear_png_1354836021_0
+    21300000: Lizard_appearing
     21300002: npc_deimaginator__x1_appear_png_1354836021_1
     21300004: npc_deimaginator__x1_appear_png_1354836021_2
     21300006: npc_deimaginator__x1_appear_png_1354836021_3
@@ -72,7 +74,7 @@ TextureImporter:
   buildTargetSettings: []
   spriteSheet:
     sprites:
-    - name: npc_deimaginator__x1_appear_png_1354836021_0
+    - name: Lizard_appearing
       rect:
         serializedVersion: 2
         x: 0
@@ -80,7 +82,7 @@ TextureImporter:
         width: 251
         height: 186
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: npc_deimaginator__x1_appear_png_1354836021_1
       rect:
@@ -90,7 +92,7 @@ TextureImporter:
         width: 251
         height: 186
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: npc_deimaginator__x1_appear_png_1354836021_2
       rect:
@@ -100,7 +102,7 @@ TextureImporter:
         width: 251
         height: 186
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: npc_deimaginator__x1_appear_png_1354836021_3
       rect:
@@ -110,7 +112,7 @@ TextureImporter:
         width: 251
         height: 186
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: npc_deimaginator__x1_appear_png_1354836021_4
       rect:
@@ -120,7 +122,7 @@ TextureImporter:
         width: 251
         height: 186
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: npc_deimaginator__x1_appear_png_1354836021_5
       rect:
@@ -130,7 +132,7 @@ TextureImporter:
         width: 251
         height: 186
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: npc_deimaginator__x1_appear_png_1354836021_6
       rect:
@@ -140,7 +142,7 @@ TextureImporter:
         width: 251
         height: 186
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: npc_deimaginator__x1_appear_png_1354836021_7
       rect:
@@ -150,7 +152,7 @@ TextureImporter:
         width: 251
         height: 186
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: npc_deimaginator__x1_appear_png_1354836021_8
       rect:
@@ -160,7 +162,7 @@ TextureImporter:
         width: 251
         height: 186
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: npc_deimaginator__x1_appear_png_1354836021_9
       rect:
@@ -170,7 +172,7 @@ TextureImporter:
         width: 251
         height: 186
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: npc_deimaginator__x1_appear_png_1354836021_10
       rect:
@@ -180,7 +182,7 @@ TextureImporter:
         width: 251
         height: 186
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: npc_deimaginator__x1_appear_png_1354836021_11
       rect:
@@ -190,7 +192,7 @@ TextureImporter:
         width: 251
         height: 186
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: npc_deimaginator__x1_appear_png_1354836021_12
       rect:
@@ -200,7 +202,7 @@ TextureImporter:
         width: 251
         height: 186
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: npc_deimaginator__x1_appear_png_1354836021_13
       rect:
@@ -210,7 +212,7 @@ TextureImporter:
         width: 251
         height: 186
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: npc_deimaginator__x1_appear_png_1354836021_14
       rect:
@@ -220,7 +222,7 @@ TextureImporter:
         width: 251
         height: 186
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: npc_deimaginator__x1_appear_png_1354836021_15
       rect:
@@ -230,7 +232,7 @@ TextureImporter:
         width: 251
         height: 186
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: npc_deimaginator__x1_appear_png_1354836021_16
       rect:
@@ -240,7 +242,7 @@ TextureImporter:
         width: 251
         height: 186
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: npc_deimaginator__x1_appear_png_1354836021_17
       rect:
@@ -250,7 +252,7 @@ TextureImporter:
         width: 251
         height: 186
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: npc_deimaginator__x1_appear_png_1354836021_18
       rect:
@@ -260,7 +262,7 @@ TextureImporter:
         width: 251
         height: 186
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: npc_deimaginator__x1_appear_png_1354836021_19
       rect:
@@ -270,7 +272,7 @@ TextureImporter:
         width: 251
         height: 186
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: npc_deimaginator__x1_appear_png_1354836021_20
       rect:
@@ -280,7 +282,7 @@ TextureImporter:
         width: 251
         height: 186
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: npc_deimaginator__x1_appear_png_1354836021_21
       rect:
@@ -290,7 +292,7 @@ TextureImporter:
         width: 251
         height: 186
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: npc_deimaginator__x1_appear_png_1354836021_22
       rect:
@@ -300,7 +302,7 @@ TextureImporter:
         width: 251
         height: 186
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: npc_deimaginator__x1_appear_png_1354836021_23
       rect:
@@ -310,7 +312,7 @@ TextureImporter:
         width: 251
         height: 186
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: npc_deimaginator__x1_appear_png_1354836021_24
       rect:
@@ -320,7 +322,7 @@ TextureImporter:
         width: 251
         height: 186
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 
