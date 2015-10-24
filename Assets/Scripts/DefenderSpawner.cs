@@ -5,9 +5,15 @@ public class DefenderSpawner : MonoBehaviour {
 
     public Camera myCamera;
     private Vector2 worldCoordinates;
+    private GameObject parent;
 	// Use this for initialization
-	void Start () {
-	
+	void Start () 
+	{
+	 parent = GameObject.Find("Defenders");
+	 if(!parent)
+	 {
+	  parent = new GameObject("Defenders");
+	 }
 	}
 	
 	// Update is called once per frame
@@ -25,7 +31,8 @@ public class DefenderSpawner : MonoBehaviour {
 	 //print (CalculateWorldCoordinate());
 	 print (SnapToGrid(CalculateWorldCoordinate()));
 	 Vector2 roundedPos = SnapToGrid(CalculateWorldCoordinate());
-	 Instantiate(Buttons.selectedDefender,roundedPos,Quaternion.identity);
+	 GameObject newDef = Instantiate(Buttons.selectedDefender,roundedPos,Quaternion.identity) as GameObject;
+	 newDef.transform.parent = parent.transform;
 	}
 	Vector2 CalculateWorldCoordinate()
 	{

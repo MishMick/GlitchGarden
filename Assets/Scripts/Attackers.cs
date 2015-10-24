@@ -2,10 +2,14 @@
 using System.Collections;
 
 public class Attackers : MonoBehaviour {
-    [Range (-1f,1.5f)]
+    
+    [Tooltip ("Average time between appearances")]
+    public float seeneveryseconds;
+	[Range (-1f,1.5f)]
     public float currentspeed;
     private GameObject currentTarget;
     private Animator anim;
+    
 	// Use this for initialization
 	void Start () {
 	anim = GetComponent<Animator>();
